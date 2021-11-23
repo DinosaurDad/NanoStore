@@ -6,6 +6,9 @@ let package = Package(
     products: [
         .library(
           name: "NanoStore",
+            platforms: [
+              .iOS(.v12)
+            ]
           targets: ["NanoStore"]),
     ],
     targets: [
