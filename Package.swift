@@ -9,7 +9,7 @@ let package = Package(
             platforms: [
               .iOS(.v12)
             ],
-          targets: ["NanoStore"]),
+          targets: ["NanoStore"])
     ],
     targets: [
         .target(
